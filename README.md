@@ -40,7 +40,6 @@ Projeto para monitorar a vazão de um sensor conectado ao ESP32, com display LCD
 
 No código, configure seu Wi-Fi:
 
-```cpp
 const char* ssid = "SEU_SSID";
 const char* password = "SUA_SENHA";
 Configurações do ThingsBoard
@@ -50,9 +49,6 @@ Copie o Access Token do dispositivo.
 
 Cole no código em:
 
-cpp
-Copiar
-Editar
 const char* access_token = "SEU_TOKEN_AQUI";
 Como usar
 Conecte o ESP32 ao seu computador.
